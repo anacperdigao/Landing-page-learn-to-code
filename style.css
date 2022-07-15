@@ -1,0 +1,106 @@
+body{
+    background-color: #FF7978;
+    background-image: url('images/bg-intro-desktop.png');
+    font-family: 'Poppins', sans-serif;
+    }
+
+h1 {
+    font-size: 32px;
+    
+}
+
+.texto-principal {
+    width: 20%;
+    text-align: left;
+    vertical-align: top;
+    display: inline-block;
+    padding: 200px 200px;
+    color: white;   
+}
+
+.texto-principal h1 {
+    width: 400px;
+    line-height: 1.2em;
+    font-weight: bold;
+}
+
+.texto-principal p {
+    padding: 2em 0 0 0;
+    color: white;
+    width: 450px;
+    line-height: 1.5em;
+}
+
+.teste-usuario {
+    padding: 100px 20px 0 0;
+    display: inline-block;
+    width: 40%;
+}
+
+.teste-usuario h2{
+    display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	padding: 15px 107px;
+	box-sizing: border-box;
+	border: none;
+	border-radius: 10px;
+    color: white;
+    background-color: #5D54A3;
+    font-size: 12px;
+    box-shadow: 0 7px #DA6667;
+    font-weight: bold;
+}
+
+form {
+    padding: 20px 0 30px 0;
+    box-sizing: border-box;
+	border: none;
+	border-radius: 10px;
+    background-color: white;
+    width: 90%;
+    margin-top: 20px;
+    box-shadow: 0 7px #D96766
+}
+
+.input-padrao {
+	display: block;
+	margin-bottom: 20px;
+    margin-left: 45px;
+	padding: 15px 25px;
+	width: 70%;
+    border-radius: 5px; 
+    border-color: #e7e7e7;
+}
+
+.botao {
+	padding: 12px 0;
+	background: #37CC8A;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px; 
+	transition: 1s all;
+	cursor: pointer;
+    width: 81%;
+    box-shadow: 0 3px #48AA7F;
+    margin-left: 45px;
+}
+
+.botao:hover {
+	background: #377E47;
+	transform: scale(1.05);
+}
+
+.teste-usuario p {
+    padding: 20px 10px 10px 10px;
+    font-size: 10px;
+    color: gray;
+    margin-left: 55px;
+}   
+
+.termo {
+    color: #DD8989;
+    font-weight: bold;
+}
